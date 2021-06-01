@@ -70,6 +70,7 @@ export default function Home() {
 
   return (
     <>
+      <Head><title>Neumorphic Box Shadows</title></Head>
         <div className={styles.wrapper} style={{ backgroundColor: `hsla(${hue}, ${saturation}%, ${lightness}%, ${opacity})`}}>
           <div className={styles.pageTitle}><h1>Neumorphic Box Shadows</h1></div>
           <div className={styles.boxWrap}>
