@@ -221,6 +221,7 @@ export default function Home() {
                   control={<Checkbox checked={checked} onChange={handleCheck} name="checked" style={{ color: "#1A78C2"}}/>}
                   label="Inset"
                   labelPlacement="end"
+                  style={{display: 'inline-block'}}
                 />
               </div>
             </div>
