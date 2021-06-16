@@ -1,9 +1,12 @@
 import React, {useState} from 'react';
-import Layout from '../components/layout';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
+import FormGroup from '@material-ui/core/FormGroup'
+import FormControl from '@material-ui/core/FormControl'
+import makeStyles from '@material-ui/core/styles/makeStyles'
+
 
 
 export default function Home() {
@@ -215,8 +218,9 @@ export default function Home() {
                   onChange={handleSpread}
                 />
                 <FormControlLabel
-                  control={<Checkbox checked={checked} onChange={handleCheck} name="checked" style={{color: "#1A78C2"}}/>}
+                  control={<Checkbox checked={checked} onChange={handleCheck} name="checked" style={{ color: "#1A78C2"}}/>}
                   label="Inset"
+                  labelPlacement="end"
                 />
               </div>
             </div>

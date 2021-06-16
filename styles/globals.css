@@ -15,12 +15,15 @@ body {
 
 p {
     color: black;
-    font-size: 1.3em;
+    font-size: 1.5rem;
+}
+label {
+    font-size: 1.5rem;
 }
 
 h1 {
     color: purple;
-    font-size: 6em;
+    font-size: 7em;
     font-family: monospace;
     text-shadow: 3px 1px 1px aliceblue,
     15px 15px 15px white;
@@ -28,6 +31,9 @@ h1 {
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
+.MuiTypography-body1 {
+    line-height: 3.5;
+}
 
 @-webkit-keyframes tracking-in-expand {
     0% {
